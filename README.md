@@ -1,2 +1,2 @@
 # practice_in_html-css
-practice 
+practice in html_css
