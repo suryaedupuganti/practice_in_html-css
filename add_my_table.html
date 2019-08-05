@@ -1,16 +1,26 @@
 <html>
-    <head>
-        <style>
-#lblFirstName{
-    color: red;
-}
-        </style>
-    </head>
-<body>
-<label id="lblFirstName">First Name</label><br/>
-<input type="submit" onclick="alert('LOGGING!')">Click here</input>
-<input type="text" placeholder="Enter Name" onchange="alert(value)" readonly/>
-<img src="" alt="img"/>
-</body>
-</html>
 
+<head>
+    <style>
+        #lblFirstName {
+            color: red;
+        }
+
+        #lblLastName {
+            color: yellow;
+        }
+        #someinput {
+            color:red;
+        }
+    </style>
+</head>
+
+<body>
+    <label id="lblFirstName">First Name</label><br />
+    <label id="lblLastName">Last Name</label><br />
+    <input id="someinput" type="submit" onclick="alert('LOGGING!')">Click here</input>
+    <input type="text" placeholder="Enter Name" onchange="alert(value)" readonly />
+    <img src="" alt="img" />
+</body>
+
+</html>
